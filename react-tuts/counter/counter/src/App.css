@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+html, body, #root {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  /* border: 1px solid white; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 15px;
+}
+
+.container {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 5rem;
+}
